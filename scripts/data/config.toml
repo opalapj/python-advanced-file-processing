@@ -1,0 +1,22 @@
+version = 1
+
+[loggers.__main__]
+handlers = ["file", "console"]
+
+[handlers.file]
+class = "logging.FileHandler"
+level = "CRITICAL"
+filename = "data/config_toml_practical_example.log"
+mode = "w"
+encoding = "utf-8"
+formatter = "common"
+
+[handlers.console]
+class = "logging.StreamHandler"
+level = "DEBUG"
+formatter = "common"
+
+[formatters.common]
+format = "{levelname:10} | {asctime} | {name:8} | {message}"
+datefmt = "%A, %d. %B %Y %I:%M%p %z"
+style = "{"

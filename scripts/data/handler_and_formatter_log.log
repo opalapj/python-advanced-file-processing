@@ -1,0 +1,5 @@
+CRITICAL   | Thursday, 06. November 2025 08:13AM +0100 | __main__ | Your CRITICAL message
+ERROR      | Thursday, 06. November 2025 08:13AM +0100 | __main__ | Your ERROR message
+WARNING    | Thursday, 06. November 2025 08:13AM +0100 | __main__ | Your WARNING message
+INFO       | Thursday, 06. November 2025 08:13AM +0100 | __main__ | Your INFO message
+DEBUG      | Thursday, 06. November 2025 08:13AM +0100 | __main__ | Your DEBUG message
