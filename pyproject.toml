@@ -5,7 +5,7 @@ authors = [
     {name = "Piotr Opała", email = "opalapj@gmail.com"},
 ]
 license = {text = "MIT"}
-dependencies = []
+dependencies = ["SQLAlchemy>=2.0.44"]
 requires-python = "==3.13.*"
 
 [tool.pdm]
